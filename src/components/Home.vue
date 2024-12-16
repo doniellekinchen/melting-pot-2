@@ -115,6 +115,69 @@ export default {
               { title: 'Japanese Advanced', link: 'https://google.com' }
             ]
           },
+          {
+            name: 'Haitian Creole',
+            flag: new URL('@/assets/Haiti Flag.jpg', import.meta.url).href,
+            resources: [
+              { title: 'Haitian Creole Beginner', link: 'https://google.com' },
+              { title: 'Haitian Creole Intermediate', link: 'https://google.com' },
+              { title: 'Haitian Creole Advanced', link: 'https://google.com' }
+            ]
+          },
+          {
+            name: 'Arabic',
+            flag: new URL('@/assets/Arab World Map with Flags.png', import.meta.url).href,
+            resources: [
+              { title: 'Arabic Beginner', link: 'https://google.com' },
+              { title: 'Arabic Intermediate', link: 'https://google.com' },
+              { title: 'Arabic Advanced', link: 'https://google.com' }
+            ]
+          },
+          {
+            name: 'American Sign Language (ASL)',
+            flag: new URL('@/assets/asl images.jpeg', import.meta.url).href,
+            resources: [
+              { title: 'ASL Beginner', link: 'https://google.com' },
+              { title: 'ASL Intermediate', link: 'https://google.com' },
+              { title: 'ASL Advanced', link: 'https://google.com' }
+            ]
+          },
+          {
+            name: 'Zulu',
+            flag: new URL('@/assets/South Africa Flag.jpg', import.meta.url).href,
+            resources: [
+              { title: 'Zulu Beginner', link: 'https://google.com' },
+              { title: 'Zulu Intermediate', link: 'https://google.com' },
+              { title: 'Zulu Advanced', link: 'https://google.com' }
+            ]
+          },
+          {
+            name: 'German',
+            flag: new URL('@/assets/Germany Flag XL.jpg', import.meta.url).href,
+            resources: [
+              { title: 'German Beginner', link: 'https://google.com' },
+              { title: 'German Intermediate', link: 'https://google.com' },
+              { title: 'German Advanced', link: 'https://google.com' }
+            ]
+          },
+          {
+            name: 'Russian',
+            flag: new URL('@/assets/Russia Flag.jpg', import.meta.url).href,
+            resources: [
+              { title: 'Russian Beginner', link: 'https://google.com' },
+              { title: 'Russian Intermediate', link: 'https://google.com' },
+              { title: 'Russian Advanced', link: 'https://google.com' }
+            ]
+          },
+          {
+            name: 'Italian',
+            flag: new URL('@/assets/Italy Flag.jpg', import.meta.url).href,
+            resources: [
+              { title: 'Italian Beginner', link: 'https://google.com' },
+              { title: 'Italian Intermediate', link: 'https://google.com' },
+              { title: 'Italian Advanced', link: 'https://google.com' }
+            ]
+          },
           // Add more languages and their resources
         ],
         filteredLanguages: [],
