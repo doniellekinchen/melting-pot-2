@@ -47,7 +47,7 @@ export default {
             name: 'English',
             flag: new URL('@/assets/USA Flag XL.jpg', import.meta.url).href,
             resources: [
-              { title: 'English Beginner', link: 'https://google.com' },
+              { title: 'English Beginner', link: '/english/beginner/index.html' },
               { title: 'English Intermediate', link: 'https://google.com' },
               { title: 'English Advanced', link: 'https://google.com' }
             ]

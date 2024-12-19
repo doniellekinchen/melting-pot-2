@@ -23,8 +23,8 @@
     },
     methods: {
       showResources() {
-        this.$emit('show-resources', this.language, this.resources);
-      }
+  this.$emit('show-resources', this.language, this.resources);
+}
     }
   };
   </script>
