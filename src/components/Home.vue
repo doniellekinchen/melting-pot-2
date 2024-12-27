@@ -48,26 +48,26 @@ export default {
             flag: new URL('@/assets/USA Flag XL.jpg', import.meta.url).href,
             resources: [
               { title: 'English Beginner', link: '/english/beginner/index.html' },
-              { title: 'English Intermediate', link: 'https://google.com' },
-              { title: 'English Advanced', link: 'https://google.com' }
+              { title: 'English Intermediate', link: '/english/intermediate/index.html' },
+              { title: 'English Advanced', link: '/english/advanced/index.html' }
             ]
           },
           {
             name: 'Spanish',
             flag: new URL('@/assets/Spain Flag.jpg', import.meta.url).href,
             resources: [
-              { title: 'Spanish Beginner', link: 'https://google.com' },
-              { title: 'Spanish Intermediate', link: 'https://google.com' },
-              { title: 'Spanish Advanced', link: 'https://google.com' }
+              { title: 'Spanish Beginner', link: '/spanish/beginner/index.html' },
+              { title: 'Spanish Intermediate', link: '/spanish/intermediate/index.html' },
+              { title: 'Spanish Advanced', link: '/spanish/advanced/index.html' }
             ]
           },
           {
             name: 'French',
             flag: new URL('@/assets/France Flag XL.jpg', import.meta.url).href,
             resources: [
-              { title: 'French Beginner', link: 'https://google.com' },
-              { title: 'French Intermediate', link: 'https://google.com' },
-              { title: 'French Advanced', link: 'https://google.com' }
+              { title: 'French Beginner', link: '/french/advanced/index.html' },
+              { title: 'French Intermediate', link: '/french/advanced/index.html' },
+              { title: 'French Advanced', link: '/french/advanced/index.html' }
             ]
           },
           {
